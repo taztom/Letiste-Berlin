@@ -1,0 +1,658 @@
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url(../fonts/MyriadPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url(../fonts/MyriadPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro-Light;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+
+h1 {
+    font-size: 30px;
+    font-family: MyriadPro-Bold;
+    color: #2e3192;
+    background-color: #ffffff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0px;
+    margin-left: 27%;
+    margin-right: 27%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: MyriadPro-Bold;
+    color: #ffffff;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header .menu {
+    font-family: MyriadPro-Bold;
+
+}
+
+header .navbar-collapse {
+    padding-right: 0px;
+}
+
+header nav ul > li {
+    border-right: dotted;
+    border-color: #6d6e71;
+    padding: 20px 35px;
+    font-size: 16px;
+}
+
+header nav ul > li:last-child {
+    border: none;
+    padding-right: 0px;
+}
+
+header .nav > li > a {
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #6d6e71;
+}
+
+header nav ul > li a:active, header nav ul > li a:hover {
+    color: #2e3192;
+    background: #ffffff;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: transparent;
+    text-decoration: underline;
+    color: #2e3192;
+}
+
+.content .wrapper {
+    background-color: #2e3192;
+    margin-top: 20px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: MyriadPro-Bold;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content .contact {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: 27px;
+}
+
+.content hr {
+    border: 2px solid #ffffff;
+
+}
+
+.content .map {
+    border-radius: 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-bottom: 5px;
+}
+
+.content .text-green {
+    color: #00ff00;
+    font-size: 20px;
+    font-family: MyriadPro-Bold;
+}
+
+.content .parking-text-green {
+    color: #00ff00;
+    font-size: 20px;
+    font-family: MyriadPro-Bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content .parking {
+    font-family: MyriadPro-Regular;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.content .parking .white-line {
+    font-family: MyriadPro-Regular;
+    background-color: #ffffff;
+    color: #2e3192;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px calc(20% - 30px);
+}
+
+.content .parking .title-left {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.content .parking .title-right {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.content .parking .price-list .col-md-6:first-child .list {
+    width: calc(48% - 21px);
+    float: right;
+}
+
+.content .parking .price-list .col-md-6:last-child .list {
+    width: calc(48% - 21px);
+    float: left;
+}
+
+.content .parking .price-list .col-md-6:last-child {
+    border-left: 6px solid #ffffff;
+}
+
+.content .parking .price-list .col-md-6 .item > div:first-child {
+    width: 70px;
+    text-align: left;
+}
+
+.content .parking .price-list .col-md-6 .item > div {
+    display: inline-block;
+}
+
+.content .parking .price-list .col-md-6 .item > div:first-child {
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.content .parking .price-list .col-md-6:first-child .item {
+    text-align: left;
+}
+
+.content .parking .price-list .col-md-6:last-child .item {
+    text-align: right;
+}
+
+.content .parking .price-list .col-md-6 .item > div:last-child {
+    background-color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #2e3192;
+    width: 120px;
+    text-align: center;
+}
+
+.content .parking .price-list .col-md-6 .item {
+    margin-bottom: 20px;
+
+}
+
+.content .parking .price-list .col-md-6 .item:last-child {
+    margin-bottom: 40px;
+
+}
+
+.content .form {
+    font-family: MyriadPro-Regular;
+
+}
+
+select {
+    cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+/*
+textarea::-webkit-input-placeholder {
+    color: #2e3192;
+}
+textarea:-moz-placeholder {
+    color: #2e3192;
+}
+textarea::-moz-placeholder {
+    color: #2e3192;
+}
+textarea:-ms-input-placeholder {
+    color: #2e3192;
+}
+*/
+
+.content .reservation-parking {
+    font-family: MyriadPro-Regular;
+}
+
+.content form .reservation-parking label {
+    width: 105px;
+}
+
+.content form .reservation-parking select, .content form .reservation-parking input, .content form .reservation-parking textarea {
+    width: calc(100% - 110px);
+    color: #2e3192;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    vertical-align: top;
+}
+
+.bold {
+    font-family: MyriadPro-Bold;
+}
+
+.line-height46 {
+    line-height: 46px;
+}
+
+.content form .form-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.content form .form-item .form-button {
+    color: #ffffff;
+    background-color: #00ff00;
+    border-color: #00ff00;
+}
+
+.content form .form-item .form-button-text {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.content form .info-passenger label {
+    width: 140px;
+}
+
+.content form .info-passenger input {
+    text-align: center;
+    width: 60px;
+}
+
+.content form .info-passenger .info-passenger-placeholder {
+    width: calc(100% - 253px);
+    text-align: left;
+}
+
+.content form .info-passenger textarea {
+    resize: inherit;
+
+}
+
+textarea {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.list li {
+    padding-top: 40px;
+    counter-increment: item;
+    position: relative;
+}
+
+.list li:last-child {
+    padding-bottom: 20px;
+}
+
+.list li:before {
+    margin-right: 5px;
+    content: counters(item, ".") ". ";
+    display: inline-block;
+}
+
+.homepage-background {
+    background-image: url("../img/background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.homepage-menu {
+    color: #ffffff;
+    padding-bottom: 20px;
+
+}
+
+.homepage-menu .col-md-2 > img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+}
+
+.homepage-menu .col-md-2 > div {
+    padding-top: 15px;
+}
+
+.parking-position-wrapper {
+    position: relative;
+}
+
+.parking-position {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2e3192
+}
+
+.homepage-parking .col-md-6 > img {
+    margin-top: 10px;
+}
+
+footer .foot span {
+    font-family: MyriadPro-Bold;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height*/
+    margin-bottom: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here*/
+    height: 60px;
+    background-color: #6d6e71;
+    color: #ffffff;
+    padding-top: 35px;
+    padding-bottom: 45px;
+
+    font-family: MyriadPro-Light;
+    font-size: 16px;
+}
+
+.navbar-toggle {
+    border: 1px solid #2e3192;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #2e3192;
+}
+
+@media (max-width: 767px) {
+    header nav ul > li {
+        padding: 0px;
+    }
+
+    header nav ul > li {
+        border: none;
+    }
+
+    .navbar-nav {
+        margin: 0px;
+    }
+
+    .navbar-header .logo {
+        display: inline-block !important;
+        margin-top: 0px;
+    }
+
+    .navbar-header .logo img {
+        height: 47px;
+        margin-left: 10%;
+    }
+
+    footer .pull-right {
+        float: left !important;
+    }
+
+    h1 {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .content .parking .price-list .col-md-6:first-child .list {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .content .parking .price-list .col-md-6:last-child .list {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .content .parking .price-list .col-md-6:first-child .item {
+        text-align: center;
+    }
+
+    .content .parking .price-list .col-md-6:last-child .item {
+        text-align: center;
+    }
+
+    .content .parking .title-left {
+        padding-left: 0px;
+    }
+
+    .content .parking .title-right {
+        padding-right: 0px;
+    }
+
+    .content .parking .white-line {
+        text-align: center;
+    }
+
+    .content .parking .price-list .col-md-6:last-child {
+        border-left: none;
+    }
+
+    .homepage-parking .col-md-6 .pull-right {
+        text-align: center;
+        float: none !important;
+    }
+
+    .homepage-parking .col-md-6 .pull-left {
+        text-align: center;
+        float: none !important;
+        padding-top: 20px;
+    }
+
+    .content form .reservation-parking label {
+        display: block;
+        text-align: left;
+        width: auto;
+    }
+
+    .content form .info-passenger .info-passenger-placeholder {
+        width: 100% !important;
+    }
+
+    .content form .reservation-parking select, .content form .reservation-parking input, .content form .reservation-parking textarea {
+        width: 100%;
+    }
+
+    .form-item .text-right {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 991px) {
+    .navbar-header .logo.visible-sm {
+        float: left;
+    }
+
+    header nav ul > li {
+        border: none;
+        padding: 0px;
+    }
+
+    .navbar-header .logo img {
+        height: 47px;
+
+    }
+
+    .navbar-collapse {
+        padding-left: 0px;
+    }
+
+    .navbar-header .logo {
+        margin-top: 0px;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .content form .info-passenger .info-passenger-placeholder {
+        width: calc(100% - 145px);
+    }
+
+    .content form .reservation-parking textarea {
+        width: 100%;
+    }
+
+    .content .parking .title-left {
+        padding-left: 0px;
+
+    }
+
+    .content .parking .title-right {
+        padding-right: 0px;
+    }
+
+    .content .parking .white-line {
+        padding: 10px calc(40% - 30px);
+    }
+
+    .content .parking .price-list .col-md-6:last-child .item, .content .parking .price-list .col-md-6:first-child .item {
+        text-align: center;
+    }
+
+    .content .parking .price-list .col-md-6:first-child .list, .content .parking .price-list .col-md-6:last-child .list {
+        float: none;
+        width: auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+    header nav ul > li {
+        padding: 20px 15px;
+    }
+
+    .nav-collapse.collapse {
+        display: none !important;
+    }
+
+    .content .parking .white-line {
+        padding: 10px calc(20% - 20px);
+    }
+
+    .content .parking .price-list .col-md-6:first-child .list {
+        width: auto;
+        float: right;
+        padding-right: calc(10% - 5px);
+    }
+
+    .content .parking .price-list .col-md-6:last-child .list {
+        width: auto;
+        float: left;
+        padding-left: calc(10% - 10px);
+    }
+
+    .content .parking .title-left {
+        padding-left: calc(50% - 30px);
+    }
+
+    .content .parking .title-right {
+        padding-right: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 1200px) {
+    header nav ul > li {
+        padding: 20px 35px;
+    }
+
+    .content .parking .title-left {
+        padding-left: calc(50% - 15px);
+    }
+
+    .content .parking .title-right {
+        padding-right: calc(50% - 15px);
+    }
+}
